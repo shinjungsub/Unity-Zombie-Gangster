@@ -8,7 +8,8 @@ public class TestConnect : MonoBehaviourPunCallbacks {
 
 	// Use this for initialization
 	void Start () {
-        print("Connecting to server.");
+        Debug.Log("Connecting to Photon...", this);
+        PhotonNetwork.AutomaticallySyncScene = true;
         PhotonNetwork.NickName = MasterManager.GameSettings.NickName;
         PhotonNetwork.GameVersion = MasterManager.GameSettings.GameVersion;
         PhotonNetwork.ConnectUsingSettings();

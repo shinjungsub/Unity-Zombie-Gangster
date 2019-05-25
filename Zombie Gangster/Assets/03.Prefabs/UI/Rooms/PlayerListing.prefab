@@ -39,8 +39,9 @@ GameObject:
   - component: {fileID: 114943479960056216}
   - component: {fileID: 222757888257257466}
   - component: {fileID: 114874517803130612}
+  - component: {fileID: 114454283816428874}
   m_Layer: 0
-  m_Name: RoomListing
+  m_Name: PlayerListing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,6 +80,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: New Text
+--- !u!114 &114454283816428874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1734660855432854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca017d4765e6cc54b8859cd68add1ad5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _text: {fileID: 114110957641069940}
 --- !u!114 &114874517803130612
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -868,6 +868,7 @@ GameObject:
   m_Component:
   - component: {fileID: 457317677}
   - component: {fileID: 457317678}
+  - component: {fileID: 457317679}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -937,12 +938,23 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &457317679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 457317676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eeeb772bb960d5b4ea380dded2372d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &542925221
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,7 +987,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 350, y: -32}
-  m_SizeDelta: {x: 700, y: 64}
+  m_SizeDelta: {x: 720, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &645118850
 GameObject:
@@ -2229,7 +2241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 634.7, y: 1161.2}
+  m_AnchoredPosition: {x: 634.7, y: 1154}
   m_SizeDelta: {x: 240, y: 64}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012678768
@@ -2252,8 +2264,8 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 15ce62d2e7b3088478f3538c0bdba6a7, type: 3}
-    m_FontSize: 32
+    m_Font: {fileID: 12800000, guid: 495c9e2a934bcc640a8d7427b13cb680, type: 3}
+    m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2

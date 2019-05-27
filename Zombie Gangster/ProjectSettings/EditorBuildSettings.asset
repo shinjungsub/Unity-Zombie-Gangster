@@ -9,9 +9,35 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/01.Scenes/Rooms.unity
     guid: 291a7fb75d54bac4a9b2ed7fe9ad4caf
   - enabled: 1
     path: Assets/01.Scenes/Test.unity
     guid: 26149547d0c607f4d83dd6dd75ca0a8a
+=======
+    path: Assets/01.Scenes/Main.unity
+    guid: 8252d4e7e680e0440aa6ac98d4f278d6
+  - enabled: 1
+    path: Assets/01.Scenes/Loading.unity
+    guid: f4b99cf23efd04d4c86a9504f29c3297
+  - enabled: 1
+    path: Assets/01.Scenes/Lobby_Single.unity
+    guid: 8af2603064cb3db488d981d3b30e4136
+  - enabled: 1
+    path: Assets/01.Scenes/Lobby_Multi.unity
+    guid: 517b74118af3302449e9a021f2e381e5
+  - enabled: 1
+    path: Assets/01.Scenes/Play_Single.unity
+    guid: dcbaa4fa3f7625647b3eb9eeb472210e
+  - enabled: 1
+    path: Assets/01.Scenes/Play_Multi.unity
+    guid: 3694fcb1e2c0f5d43852f4a8a0d8a10a
+  - enabled: 1
+    path: Assets/01.Scenes/Over_Kill.unity
+    guid: 9d555e142bf39894eb5c23827d7c3e1e
+  - enabled: 1
+    path: Assets/01.Scenes/Over_Ranking.unity
+    guid: 0974ff41b7c52a64983245979c921098
+>>>>>>> e50511e5782af8eda424f47c2af3ca1cd0973e30
   m_configObjects: {}

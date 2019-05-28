@@ -22,4 +22,12 @@ public class RoomsCanvases : MonoBehaviour {
         CreateOrJoinRoomCanvas.FirstInitialize(this);
         CurrentRoomCanvas.FirstInitialize(this);
     }
+
+    void Update()
+    {
+        if(Singleton.Instance.inRoom)
+        {
+            CurrentRoomCanvas.Show();
+        }
+    }
 }

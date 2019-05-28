@@ -61,7 +61,7 @@ public class PlayerListingsMenu : MonoBehaviourPunCallbacks {
         }
     }
 
-    private void AddPlayerListing(Player player)
+    public void AddPlayerListing(Player player)
     {
         PlayerListing listing = Instantiate(_playerListing, _content);
         if (listing != null)

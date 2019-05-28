@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: bfb157dceddc2324a8c49bf5b7597a35
+guid: af06ce55a27e0ab489a48111a4aa5093
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -9,7 +9,6 @@ ModelImporter:
     3300000: //RootNode
     4300000: apartment_small_mesh
     11100000: //RootNode
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b4446669b54b4a24b82685682d266ff1
+guid: 926c3cc1a0015ee44b8edfabc0abdb6c
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -9,12 +9,7 @@ ModelImporter:
     3300000: //RootNode
     4300000: fence_long_spike
     9500000: //RootNode
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: setexport2013_lambert15
-    second: {fileID: 2100000, guid: 855ab7f48d2b7ee4187c9d48c03d4c99, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0

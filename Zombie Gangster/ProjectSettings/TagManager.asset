@@ -7,7 +7,6 @@ TagManager:
   - WALL
   - BUILDING
   - PointLight
-  - CurrentRoomCanvas
   layers:
   - Default
   - TransparentFX

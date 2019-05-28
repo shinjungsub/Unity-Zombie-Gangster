@@ -6,15 +6,17 @@ using UnityEngine.UI;
 public class LoadScene : MonoBehaviour {
 
 	public void GoLobby()
-	{				
-		SceneName.instance.Name="Rooms";
-		SceneManager.LoadScene("Loading");	
-	}
+	{
+        //SceneName.instance.Name="Rooms";
+        //SceneManager.LoadScene("Loading");	
+        SceneManager.LoadScene("SimpleTown_DemoScene");
+    }
 
 	public void GoMain()
-	{				
-		SceneName.instance.Name="Main";
-		SceneManager.LoadScene("Loading");	
+	{
+        //SceneName.instance.Name="Main";
+        //SceneManager.LoadScene("Loading");	
+        SceneManager.LoadScene("Main");
 	}
 
 	public void GoPlay()

@@ -14,10 +14,10 @@ public class LoadingSceneManager : MonoBehaviour {
 	// 	{
 	// 		instance=FindObjectOfType(typeof(LoadingSceneManager))as LoadingSceneManager;
 	// 		//as: 프리팹을 인스턴스화시켜준답디다
-
+    //
 	// 		if(!instance) Debug.LogError("없어");			
 	// 	}
-		
+	//
 	// 	return instance;
 	// }
 	//============================================

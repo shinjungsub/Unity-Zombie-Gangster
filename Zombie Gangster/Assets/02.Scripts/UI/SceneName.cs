@@ -3,12 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class SceneName : MonoBehaviour {
+    public static SceneName instance;
 
-	public static SceneName instance;
-	
-	public string Name;
-	
-	void Awake()
+    void Awake()
 	{
 		if(!instance)
 		{
@@ -22,7 +19,5 @@ public class SceneName : MonoBehaviour {
 		DontDestroyOnLoad(gameObject);
 	}
 
-	
-
-
+    public string Name;
 }

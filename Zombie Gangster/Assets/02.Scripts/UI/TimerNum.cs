@@ -14,13 +14,13 @@ public class TimerNum : MonoBehaviour {
 
 	//텍스트용
 	public Text timeText;
-	//private float time;
 
 
 	// Use this for initialization
 	void Start () {
-		slider = GameObject.Find("Slider");
-		sl = slider.GetComponent<Slider>();
+        //slider = GameObject.Find("Slider");
+        //sl = slider.GetComponent<Slider>();
+        timeText = GetComponent<Text>();
 	}
 	
 	// Update is called once per frame
@@ -28,7 +28,7 @@ public class TimerNum : MonoBehaviour {
 
 		// 한 프레임 마다 깍아준다
 		time -= Time.deltaTime;
-		sl.value = time/120f;
+		//sl.value = time/120f;
 
 		//timeText.text=$"{time:N2}";
 			//timeText.text=time.ToString();
@@ -42,14 +42,14 @@ N과 F를 사용해 소수점 몇 번째 까지만 표시할 수 있다. N2를 �
  */
 		
 	
-		timeText.text=Mathf.Ceil(time).ToString();
+		//timeText.text=Mathf.Ceil(time).ToString();
 		//timeText.text=string.Format("{0:N2}", time);
 		int min=(int)time/60;
 		int sec=(int)time-(min*60);
 		int sec1=sec/10;
 		int sec2=sec%10;
-
-		timeText.text=string.Format(min.ToString()+":"+sec1.ToString()+sec2.ToString());
+        timeText.text = "Time " + min + ":" + sec1 + sec2;
+        //timeText.text=string.Format("Time : " + min.ToString()+":"+sec1.ToString()+sec2.ToString());
 		//timeText.text=string.Format("{00:00",time);
 		//timeText.text=""+time.ToString("00.00");
 		//timeText.text=timeText.Replaace(".",":");

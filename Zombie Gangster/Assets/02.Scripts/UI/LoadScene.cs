@@ -5,37 +5,38 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class LoadScene : MonoBehaviour {
 
-	LoadingSceneManager loadName;
-
-	public void LobbySceneSingle()
+	public void GoLobby()
 	{
-		LoadingSceneManager.instance.SceneName = "Lobby_Single";
-		SceneManager.LoadScene("Loading");								//로딩씬으로 일단 이동하고 간다
+        //SceneName.instance.Name="Rooms";
+        //SceneManager.LoadScene("Loading");	
+        SceneManager.LoadScene("SimpleTown_DemoScene");
+    }
+
+	public void GoMain()
+	{
+        //SceneName.instance.Name="Main";
+        //SceneManager.LoadScene("Loading");	
+        SceneManager.LoadScene("Main");
 	}
 
-	public void LobbySceneMulti()
-	{
-		LoadingSceneManager.instance.SceneName = "Lobby_Multi";
-		SceneManager.LoadScene("Loading");								//로딩씬으로 일단 이동하고 간다
-	}
-
-	public void MainScene()
-	{
-		LoadingSceneManager.instance.SceneName = "Lobby_Multi";	//이동할 씬 위치 이름 알려주기
-		SceneManager.LoadScene("Loading");								//로딩씬으로 일단 이동하고 간다
+	public void GoPlay()
+	{				
+		SceneName.instance.Name="Play";
+		SceneManager.LoadScene("Loading");	
 	}
 
 
-	
-	public void PlaySingle()
-	{
-		LoadingSceneManager.instance.SceneName = "PlaySingle";		//이동할 씬 위치 이름 알려주기
-		SceneManager.LoadScene("Loading");								//로딩씬으로 일단 이동하고 간다
+	//로딩없이 발생
+	public void GoRanking()
+	{				
+		SceneName.instance.Name="Over_Ranking";
+		SceneManager.LoadScene("Over_Ranking");	
 	}
 
-		public void PlayMulti()
-	{
-		LoadingSceneManager.instance.SceneName = "PlayMulti";		//이동할 씬 위치 이름 알려주기
-		SceneManager.LoadScene("Loading");								//로딩씬으로 일단 이동하고 간다
+	public void GoKill()
+	{				
+		SceneName.instance.Name="GoKill";
+		SceneManager.LoadScene("GoKill");	
 	}
+
 }

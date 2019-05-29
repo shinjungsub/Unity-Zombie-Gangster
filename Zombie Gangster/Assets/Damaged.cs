@@ -16,7 +16,7 @@ public class Damaged : MonoBehaviour
 
             Vector3 vector = new Vector3(Random.Range(vec.x - 1.0f, vec.x + 2.0f), Random.Range(vec.y - 2.0f, vec.y + 1.0f), Random.Range(vec.z - 1.0f, vec.z + 1.0f)); 
             Instantiate(blood, vector, trans.rotation);
-            Destroy(blood, 1.0f);
+            Destroy(blood, 2.5f);
         }
     }
     

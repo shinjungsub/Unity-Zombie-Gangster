@@ -151,6 +151,7 @@ public class EnemyAi : MonoBehaviour
                 _audio.PlayOneShot(dieSfx[0], 1.0f);
             }
             this.tracing = false;
+            rg.isKinematic = true;
             
         }
 
@@ -166,16 +167,7 @@ public class EnemyAi : MonoBehaviour
             //Destroy(this.gameObject);
             count ++;
             _audio.PlayOneShot(pigyeok[0], 1.0f);
-
             
-            //if (this.currhp <= 5.0)
-            //{
-            //    Destroy(this.gameObject);
-            //}
-            //else
-            //{
-            //    this.currhp -= 3.7f;
-            //}
         }
 
 

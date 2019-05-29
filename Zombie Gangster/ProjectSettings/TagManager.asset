@@ -7,6 +7,17 @@ TagManager:
   - WALL
   - BUILDING
   - PointLight
+<<<<<<< HEAD
+=======
+  - Enemy
+  - FIST
+  - PALM
+  - HOSTAGE
+  - MYHOSTAGE
+  - EnemyDead
+  - PUNCH
+  - Enemy2
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
   layers:
   - Default
   - TransparentFX
@@ -17,8 +28,13 @@ TagManager:
   - 
   - 
   - PostProcessing
+<<<<<<< HEAD
   - Player
   - 
+=======
+  - BUILDING
+  - WALL
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
   - 
   - 
   - 

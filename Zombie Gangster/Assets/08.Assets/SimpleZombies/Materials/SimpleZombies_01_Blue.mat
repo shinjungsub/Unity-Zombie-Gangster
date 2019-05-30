@@ -10,10 +10,6 @@ Material:
   m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -29,26 +25,3 @@ Material:
     m_Floats: []
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-<<<<<<< HEAD
-=======
-=======
-  m_CustomRenderQueue: -1
-  stringTagMap: {}
-  m_SavedProperties:
-    serializedVersion: 2
-    m_TexEnvs:
-      data:
-        first:
-          name: _MainTex
-        second:
-          m_Texture: {fileID: 2800000, guid: 623cd18e8146fb943a8e63d3a528cde3, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-    m_Floats: {}
-    m_Colors:
-      data:
-        first:
-          name: _Color
-        second: {r: 1, g: 1, b: 1, a: 1}
->>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121

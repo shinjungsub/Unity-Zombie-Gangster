@@ -2,52 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 using UnityEngine.SceneManagement;
 public class Timer : MonoBehaviour {
 
 	private float time=120f;
-<<<<<<< HEAD
-=======
-=======
-
-public class Timer : MonoBehaviour {
-
-	float time=120f;
->>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 
 	int count;
 
 	private GameObject slider;
 	private Slider sl;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 	private Animator ani;
 
 	//텍스트용
 	public Text timeText;
 	//private float time;
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 
 	// Use this for initialization
 	void Start () {
 		slider = GameObject.Find("Slider");
 		sl = slider.GetComponent<Slider>();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 		ani = GameObject.Find("TimeCheck").GetComponent<Animator>();
 	}
 	
@@ -76,18 +50,5 @@ public class Timer : MonoBehaviour {
 		{			
 			ani.SetTrigger("Time");
 		}
-<<<<<<< HEAD
-=======
-=======
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		if(time<=0f) //게임종료화면띄우기
-		// 한 프레임 마다 깍아준다
-		time -= Time.deltaTime;
-		sl.value = time/120f;
->>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
->>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 	}
 }

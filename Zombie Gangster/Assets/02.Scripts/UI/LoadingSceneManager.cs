@@ -4,6 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 public class LoadingSceneManager : MonoBehaviour {	
 	
 	//싱글톤 맨듬
@@ -21,10 +25,20 @@ public class LoadingSceneManager : MonoBehaviour {
 	// 	return instance;
 	// }
 	//============================================
+<<<<<<< HEAD
+=======
+=======
+public class LoadingSceneManager : MonoBehaviour {
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 
 	public Slider slider;
 	bool IsDone=false;
 	float fTime=0f;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 	AsyncOperation async_operation;		
 	//public string SceneName;
 
@@ -41,12 +55,57 @@ public class LoadingSceneManager : MonoBehaviour {
 		// 	Destroy(gameObject);
 		// }
 		// DontDestroyOnLoad(gameObject);
+<<<<<<< HEAD
+=======
+=======
+	AsyncOperation async_operation;	
+	public string SceneName;
+	
+	
+	//============================================
+	//싱글톤 맨듬
+	public static LoadingSceneManager instance;
+	public static LoadingSceneManager GetInstance()
+	{
+		if(!instance)
+		{
+			instance=FindObjectOfType(typeof(LoadingSceneManager))as LoadingSceneManager;
+			//as:프리팹을 인스턴스화시켜준답디다
+
+			if(!instance) Debug.LogError("없어");					
+		}
+		
+		return instance;
+	}
+
+	//안터지게 함
+	void Awake()
+	{
+		if(instance==null)
+		{
+			instance=this;	
+		}
+		else if(instance!=this)
+		{
+			Destroy(gameObject);
+		}
+		DontDestroyOnLoad(gameObject);
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 	}
 
 	//============================================
 	void Start()
 	{	
+<<<<<<< HEAD
 		StartCoroutine(StartLoad(SceneName.instance.Name));
+=======
+<<<<<<< HEAD
+		StartCoroutine(StartLoad(SceneName.instance.Name));
+=======
+		StartCoroutine(StartLoad(SceneName));
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 	}
 
 

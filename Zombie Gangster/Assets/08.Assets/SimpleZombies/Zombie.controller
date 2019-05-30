@@ -7,6 +7,12 @@ AnimatorController:
   m_PrefabInternal: {fileID: 0}
   m_Name: Zombie
   serializedVersion: 5
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  m_AnimatorParameters: []
+=======
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_AnimatorParameters:
   - m_Name: IsWalk
     m_Type: 4
@@ -38,6 +44,10 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
+=======
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -51,6 +61,24 @@ AnimatorController:
     m_IKPass: 0
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+--- !u!1102 &110200000
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Zombie_Eating
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: -12, y: 36, z: 0}
+  m_IKOnFeet: 1
+=======
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 --- !u!1107 &110700000
 AnimatorStateMachine:
   serializedVersion: 5
@@ -390,17 +418,48 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
+<<<<<<< HEAD
+=======
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
+<<<<<<< HEAD
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 7bcae5794e3e1d24e9952afb214dbb43, type: 3}
+=======
+<<<<<<< HEAD
+  m_Motion: {fileID: 7400000, guid: 3d8c9d7b6354f174585b5a1e6bb6268b, type: 3}
+=======
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: 570507a92b0f30042afbcc57f3b115a4, type: 3}
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+--- !u!1102 &110217463
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Zombie_Idle
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 59, y: 214, z: 0}
+  m_IKOnFeet: 1
+=======
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_TimeParameter: 
 --- !u!1102 &1102593920556387120
 AnimatorState:
@@ -417,17 +476,48 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
+<<<<<<< HEAD
+=======
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
+<<<<<<< HEAD
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 570507a92b0f30042afbcc57f3b115a4, type: 3}
+=======
+<<<<<<< HEAD
+  m_Motion: {fileID: 7400004, guid: 3d8c9d7b6354f174585b5a1e6bb6268b, type: 3}
+=======
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: c73406a40b8b7a641b1972a5380b5cc1, type: 3}
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+--- !u!1102 &110280931
+AnimatorState:
+  serializedVersion: 5
+  m_ObjectHideFlags: 3
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Zombie_Walk
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 38, y: 135, z: 0}
+  m_IKOnFeet: 1
+=======
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_TimeParameter: 
 --- !u!1102 &1102707366038592208
 AnimatorState:
@@ -442,17 +532,36 @@ AnimatorState:
   m_StateMachineBehaviours: []
   m_Position: {x: 50, y: 50, z: 0}
   m_IKOnFeet: 0
+<<<<<<< HEAD
+=======
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_WriteDefaultValues: 1
   m_Mirror: 0
   m_SpeedParameterActive: 0
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
+<<<<<<< HEAD
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: afbb00bfc36877d4abcd52247235f9e1, type: 3}
+=======
+<<<<<<< HEAD
+  m_Motion: {fileID: 7400002, guid: 3d8c9d7b6354f174585b5a1e6bb6268b, type: 3}
+=======
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: afbb00bfc36877d4abcd52247235f9e1, type: 3}
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+--- !u!1107 &110700000
+=======
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_TimeParameter: 
 --- !u!1102 &1102728805964214880
 AnimatorState:
@@ -534,20 +643,57 @@ AnimatorState:
   m_CycleOffsetParameter: 
   m_TimeParameter: 
 --- !u!1107 &1107421749819586080
+<<<<<<< HEAD
+=======
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
 AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
+<<<<<<< HEAD
   m_Name: New Layer
   m_ChildStates: []
+=======
+<<<<<<< HEAD
+  m_Name: Base Layer
+  m_ChildStates:
+  - serializedVersion: 1
+    m_State: {fileID: 110200000}
+    m_Position: {x: -12, y: 36, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 110280931}
+    m_Position: {x: 38, y: 135, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 110217463}
+    m_Position: {x: 59, y: 214, z: 0}
+=======
+  m_Name: New Layer
+  m_ChildStates: []
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+  m_AnyStatePosition: {x: 0, y: -48, z: 0}
+  m_EntryPosition: {x: 50, y: 120, z: 0}
+  m_ExitPosition: {x: 800, y: 120, z: 0}
+  m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
+  m_DefaultState: {fileID: 110200000}
+=======
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 0}
+<<<<<<< HEAD
+=======
+>>>>>>> e36660eb007966b6a5a18c4e0c3d16ccf3b67373
+>>>>>>> 4119fad09803c011d708b32e6c4e764d4b241121

@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using UnityEngine;
+using System.IO;
 
 public class ManagerClass : MonoBehaviour {
-    private static ManagerClass _instance = null;
+    public static ManagerClass _instance = null;
 
     public static ManagerClass Instance
     {
@@ -20,6 +21,19 @@ public class ManagerClass : MonoBehaviour {
         }
     }
 
+    //void Awake()
+    //{
+    //    if (instance == null)
+    //    {
+    //        instance = FindObjectOfType(typeof(ManagerClass)) as ManagerClass;
+    //        if (instance == null)
+    //        {
+    //            Debug.LogError("There's no active ManagerClass object");
+    //        }
+    //    }
+    //    DontDestroyOnLoad(gameObject);
+    //}
+
     //이곳에 변수나 함수를 퍼플릭으로 선언하면 sendMessage를 안쓰고도 접근 가능
     public int killNum = 0;
     public int maxKillNum = 0;
@@ -31,5 +45,14 @@ public class ManagerClass : MonoBehaviour {
         {
             maxKillNum = killNum;
         }
+    }
+    public void SaveKillDataToJson()
+    {
+        MaxKillNum();
+        PlayerPrefs.SetInt("maxKillNum", maxKillNum);
+    }
+    public void LoadKillDataToJson()
+    {
+        maxKillNum = PlayerPrefs.GetInt("maxKillNum");
     }
 }

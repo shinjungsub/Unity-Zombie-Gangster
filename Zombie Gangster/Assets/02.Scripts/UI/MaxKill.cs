@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MaxKill : MonoBehaviour {
-    private KillData killData;
+
     private Text maxKillText;
 
 	// Use this for initialization
 	void Start () {
-        killData = GetComponent<KillData>();
+        ManagerClass.Instance.LoadKillDataToJson();
         maxKillText = GetComponent<Text>();
 	}
 	

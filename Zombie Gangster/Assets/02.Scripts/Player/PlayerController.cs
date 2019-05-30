@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour {
         {
             attackTime += Time.deltaTime;
 
-            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+            //transform.Translate(Vector3.forward * speed * Time.deltaTime);
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("Zombie_Eating"))
             {
                 attack = false;
@@ -45,11 +45,11 @@ public class PlayerController : MonoBehaviour {
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 die = true;
-                ManagerClass.Instance.MaxKillNum();
+                ManagerClass.Instance.SaveKillDataToJson();
             }
             if(Input.GetKeyDown(KeyCode.A))
             {
-                ManagerClass.Instance.killNum++;
+                ManagerClass.Instance.killNum += 10;
             }
             if (!attack && maxAttackTime < attackTime)
                 attack = true;
